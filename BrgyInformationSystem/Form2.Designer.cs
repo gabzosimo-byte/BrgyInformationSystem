@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -53,50 +53,48 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label17 = new System.Windows.Forms.Label();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
-            this.guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
-            this.guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
+            this.label27 = new System.Windows.Forms.Label();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.guna2Separator6 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2Separator5 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2Separator4 = new Guna.UI2.WinForms.Guna2Separator();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.guna2Separator4 = new Guna.UI2.WinForms.Guna2Separator();
-            this.guna2Separator5 = new Guna.UI2.WinForms.Guna2Separator();
-            this.guna2Separator6 = new Guna.UI2.WinForms.Guna2Separator();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -107,8 +105,8 @@
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
@@ -118,11 +116,9 @@
             this.guna2Panel7.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
             this.guna2Panel10.SuspendLayout();
-            this.guna2Panel11.SuspendLayout();
             this.guna2Panel12.SuspendLayout();
+            this.guna2Panel11.SuspendLayout();
             this.guna2Panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
@@ -132,6 +128,7 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.guna2Panel1.Controls.Add(this.guna2Button11);
             this.guna2Panel1.Controls.Add(this.guna2Button8);
             this.guna2Panel1.Controls.Add(this.guna2Button7);
             this.guna2Panel1.Controls.Add(this.guna2Button6);
@@ -139,7 +136,6 @@
             this.guna2Panel1.Controls.Add(this.guna2Button4);
             this.guna2Panel1.Controls.Add(this.guna2Button3);
             this.guna2Panel1.Controls.Add(this.guna2Button2);
-            this.guna2Panel1.Controls.Add(this.guna2Button1);
             this.guna2Panel1.Controls.Add(this.label1);
             this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -148,16 +144,6 @@
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(242, 656);
             this.guna2Panel1.TabIndex = 0;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.guna2Panel2.Controls.Add(this.label2);
-            this.guna2Panel2.Location = new System.Drawing.Point(241, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(1225, 60);
-            this.guna2Panel2.TabIndex = 1;
             // 
             // label1
             // 
@@ -169,6 +155,16 @@
             this.label1.Size = new System.Drawing.Size(123, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Barangay Hall";
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.guna2Panel2.Controls.Add(this.label2);
+            this.guna2Panel2.Location = new System.Drawing.Point(241, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
+            this.guna2Panel2.Size = new System.Drawing.Size(1225, 60);
+            this.guna2Panel2.TabIndex = 1;
             // 
             // label2
             // 
@@ -192,6 +188,26 @@
             this.guna2Panel3.Size = new System.Drawing.Size(158, 100);
             this.guna2Panel3.TabIndex = 2;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(3, 35);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(66, 25);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "2,458";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(3, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(120, 20);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Total Residents";
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -212,26 +228,6 @@
             this.label4.Size = new System.Drawing.Size(293, 16);
             this.label4.TabIndex = 4;
             this.label4.Text = "Here\'s the latest information from your barangay.";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 9);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(120, 20);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Total Residents";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(3, 35);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 25);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "2,458";
             // 
             // guna2Panel4
             // 
@@ -412,37 +408,15 @@
             this.guna2Panel10.Size = new System.Drawing.Size(618, 291);
             this.guna2Panel10.TabIndex = 11;
             // 
-            // guna2Panel11
-            // 
-            this.guna2Panel11.Controls.Add(this.guna2Button10);
-            this.guna2Panel11.Controls.Add(this.label27);
-            this.guna2Panel11.Controls.Add(this.guna2PictureBox3);
-            this.guna2Panel11.Location = new System.Drawing.Point(248, 389);
-            this.guna2Panel11.Name = "guna2Panel11";
-            this.guna2Panel11.ShadowDecoration.Parent = this.guna2Panel11;
-            this.guna2Panel11.Size = new System.Drawing.Size(1197, 45);
-            this.guna2Panel11.TabIndex = 12;
-            // 
             // guna2Panel12
             // 
             this.guna2Panel12.Controls.Add(this.guna2Button9);
-            this.guna2Panel12.Controls.Add(this.guna2PictureBox2);
             this.guna2Panel12.Controls.Add(this.label17);
             this.guna2Panel12.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel12.Name = "guna2Panel12";
             this.guna2Panel12.ShadowDecoration.Parent = this.guna2Panel12;
             this.guna2Panel12.Size = new System.Drawing.Size(618, 51);
             this.guna2Panel12.TabIndex = 0;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(86, 8);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(137, 16);
-            this.label17.TabIndex = 0;
-            this.label17.Text = "Recent Documents";
             // 
             // guna2Button9
             // 
@@ -459,115 +433,15 @@
             this.guna2Button9.TabIndex = 4;
             this.guna2Button9.Text = "View All →";
             // 
-            // guna2Separator1
+            // label17
             // 
-            this.guna2Separator1.Location = new System.Drawing.Point(3, 52);
-            this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(612, 106);
-            this.guna2Separator1.TabIndex = 0;
-            // 
-            // guna2Separator2
-            // 
-            this.guna2Separator2.Location = new System.Drawing.Point(3, 57);
-            this.guna2Separator2.Name = "guna2Separator2";
-            this.guna2Separator2.Size = new System.Drawing.Size(612, 123);
-            this.guna2Separator2.TabIndex = 1;
-            this.guna2Separator2.Click += new System.EventHandler(this.guna2Separator2_Click);
-            // 
-            // guna2Separator3
-            // 
-            this.guna2Separator3.Location = new System.Drawing.Point(3, 156);
-            this.guna2Separator3.Name = "guna2Separator3";
-            this.guna2Separator3.Size = new System.Drawing.Size(612, 97);
-            this.guna2Separator3.TabIndex = 2;
-            this.guna2Separator3.Click += new System.EventHandler(this.guna2Separator3_Click);
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(85, 65);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(153, 20);
-            this.label20.TabIndex = 8;
-            this.label20.Text = "Barangay Clearance";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label21.Location = new System.Drawing.Point(86, 87);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(97, 16);
-            this.label21.TabIndex = 9;
-            this.label21.Text = "Juan Dela Cruz";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(85, 142);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(171, 20);
-            this.label22.TabIndex = 11;
-            this.label22.Text = "Certificate of Indigency";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label23.Location = new System.Drawing.Point(86, 164);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(76, 16);
-            this.label23.TabIndex = 12;
-            this.label23.Text = "Ana Santos";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label24.Location = new System.Drawing.Point(86, 246);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(87, 16);
-            this.label24.TabIndex = 13;
-            this.label24.Text = "Pedro Reyes";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(85, 224);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(153, 20);
-            this.label25.TabIndex = 14;
-            this.label25.Text = "Barangay Clearance";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.PaleGreen;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Green;
-            this.label18.Location = new System.Drawing.Point(406, 76);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(85, 20);
-            this.label18.TabIndex = 16;
-            this.label18.Text = "Accepted";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.MistyRose;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.Crimson;
-            this.label19.Location = new System.Drawing.Point(406, 156);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(81, 20);
-            this.label19.TabIndex = 17;
-            this.label19.Text = "Rejected";
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(25, 19);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(137, 16);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "Recent Documents";
             // 
             // label26
             // 
@@ -581,15 +455,125 @@
             this.label26.TabIndex = 18;
             this.label26.Text = "For Review";
             // 
-            // label27
+            // label19
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(60, 11);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(189, 25);
-            this.label27.TabIndex = 5;
-            this.label27.Text = "Recent Activities";
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.MistyRose;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Crimson;
+            this.label19.Location = new System.Drawing.Point(406, 156);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(81, 20);
+            this.label19.TabIndex = 17;
+            this.label19.Text = "Rejected";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.PaleGreen;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Green;
+            this.label18.Location = new System.Drawing.Point(406, 76);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(85, 20);
+            this.label18.TabIndex = 16;
+            this.label18.Text = "Accepted";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(85, 224);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(153, 20);
+            this.label25.TabIndex = 14;
+            this.label25.Text = "Barangay Clearance";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label24.Location = new System.Drawing.Point(86, 246);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(87, 16);
+            this.label24.TabIndex = 13;
+            this.label24.Text = "Pedro Reyes";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label23.Location = new System.Drawing.Point(86, 164);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(76, 16);
+            this.label23.TabIndex = 12;
+            this.label23.Text = "Ana Santos";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(85, 142);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(171, 20);
+            this.label22.TabIndex = 11;
+            this.label22.Text = "Certificate of Indigency";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label21.Location = new System.Drawing.Point(86, 87);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(97, 16);
+            this.label21.TabIndex = 9;
+            this.label21.Text = "Juan Dela Cruz";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(85, 65);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(153, 20);
+            this.label20.TabIndex = 8;
+            this.label20.Text = "Barangay Clearance";
+            // 
+            // guna2Separator3
+            // 
+            this.guna2Separator3.Location = new System.Drawing.Point(3, 156);
+            this.guna2Separator3.Name = "guna2Separator3";
+            this.guna2Separator3.Size = new System.Drawing.Size(612, 97);
+            this.guna2Separator3.TabIndex = 2;
+            this.guna2Separator3.Click += new System.EventHandler(this.guna2Separator3_Click);
+            // 
+            // guna2Separator2
+            // 
+            this.guna2Separator2.Location = new System.Drawing.Point(3, 57);
+            this.guna2Separator2.Name = "guna2Separator2";
+            this.guna2Separator2.Size = new System.Drawing.Size(612, 123);
+            this.guna2Separator2.TabIndex = 1;
+            this.guna2Separator2.Click += new System.EventHandler(this.guna2Separator2_Click);
+            // 
+            // guna2Separator1
+            // 
+            this.guna2Separator1.Location = new System.Drawing.Point(3, 52);
+            this.guna2Separator1.Name = "guna2Separator1";
+            this.guna2Separator1.Size = new System.Drawing.Size(612, 106);
+            this.guna2Separator1.TabIndex = 0;
+            // 
+            // guna2Panel11
+            // 
+            this.guna2Panel11.Controls.Add(this.guna2Button10);
+            this.guna2Panel11.Controls.Add(this.label27);
+            this.guna2Panel11.Location = new System.Drawing.Point(248, 389);
+            this.guna2Panel11.Name = "guna2Panel11";
+            this.guna2Panel11.ShadowDecoration.Parent = this.guna2Panel11;
+            this.guna2Panel11.Size = new System.Drawing.Size(1197, 45);
+            this.guna2Panel11.TabIndex = 12;
             // 
             // guna2Button10
             // 
@@ -605,6 +589,16 @@
             this.guna2Button10.Size = new System.Drawing.Size(98, 39);
             this.guna2Button10.TabIndex = 6;
             this.guna2Button10.Text = "View All →";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(35, 11);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(189, 25);
+            this.label27.TabIndex = 5;
+            this.label27.Text = "Recent Activities";
             // 
             // guna2Panel9
             // 
@@ -632,6 +626,171 @@
             this.guna2Panel9.ShadowDecoration.Parent = this.guna2Panel9;
             this.guna2Panel9.Size = new System.Drawing.Size(1197, 188);
             this.guna2Panel9.TabIndex = 10;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(779, 15);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(184, 13);
+            this.label47.TabIndex = 18;
+            this.label47.Text = "Barangay Clearance (Juan Dela Cruz)";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(777, 56);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(186, 13);
+            this.label46.TabIndex = 17;
+            this.label46.Text = "Certificate of Indigency (Maria Santos)";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(834, 99);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(62, 13);
+            this.label45.TabIndex = 16;
+            this.label45.Text = "Jose Reyes";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(834, 141);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(62, 13);
+            this.label44.TabIndex = 15;
+            this.label44.Text = "Ana Santos";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(546, 15);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(105, 13);
+            this.label43.TabIndex = 14;
+            this.label43.Text = "Document Approved";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(563, 56);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(72, 13);
+            this.label42.TabIndex = 13;
+            this.label42.Text = "New Request";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(554, 99);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(94, 13);
+            this.label41.TabIndex = 12;
+            this.label41.Text = "Resident Archived";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(554, 141);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(102, 13);
+            this.label40.TabIndex = 11;
+            this.label40.Text = "Document Rejected";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(320, 15);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(36, 13);
+            this.label39.TabIndex = 10;
+            this.label39.Text = "Admin";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(320, 99);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(36, 13);
+            this.label38.TabIndex = 9;
+            this.label38.Text = "Admin";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(320, 56);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(29, 13);
+            this.label37.TabIndex = 8;
+            this.label37.Text = "Staff";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(320, 141);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(29, 13);
+            this.label36.TabIndex = 7;
+            this.label36.Text = "Staff";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(52, 141);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(136, 13);
+            this.label35.TabIndex = 6;
+            this.label35.Text = "October 23, 2026 11:57PM";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(52, 99);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(136, 13);
+            this.label34.TabIndex = 5;
+            this.label34.Text = "October 23, 2026 11:57PM";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(52, 56);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(136, 13);
+            this.label33.TabIndex = 4;
+            this.label33.Text = "October 23, 2026 11:57PM";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(52, 15);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(136, 13);
+            this.label32.TabIndex = 3;
+            this.label32.Text = "October 23, 2026 11:57PM";
+            // 
+            // guna2Separator6
+            // 
+            this.guna2Separator6.Location = new System.Drawing.Point(-2, 115);
+            this.guna2Separator6.Name = "guna2Separator6";
+            this.guna2Separator6.Size = new System.Drawing.Size(1196, 10);
+            this.guna2Separator6.TabIndex = 2;
+            // 
+            // guna2Separator5
+            // 
+            this.guna2Separator5.Location = new System.Drawing.Point(0, 72);
+            this.guna2Separator5.Name = "guna2Separator5";
+            this.guna2Separator5.Size = new System.Drawing.Size(1196, 10);
+            this.guna2Separator5.TabIndex = 1;
+            // 
+            // guna2Separator4
+            // 
+            this.guna2Separator4.Location = new System.Drawing.Point(0, 31);
+            this.guna2Separator4.Name = "guna2Separator4";
+            this.guna2Separator4.Size = new System.Drawing.Size(1196, 10);
+            this.guna2Separator4.TabIndex = 0;
             // 
             // label28
             // 
@@ -676,195 +835,6 @@
             this.label31.Size = new System.Drawing.Size(49, 16);
             this.label31.TabIndex = 16;
             this.label31.Text = "Details";
-            // 
-            // guna2Separator4
-            // 
-            this.guna2Separator4.Location = new System.Drawing.Point(0, 31);
-            this.guna2Separator4.Name = "guna2Separator4";
-            this.guna2Separator4.Size = new System.Drawing.Size(1196, 10);
-            this.guna2Separator4.TabIndex = 0;
-            // 
-            // guna2Separator5
-            // 
-            this.guna2Separator5.Location = new System.Drawing.Point(0, 72);
-            this.guna2Separator5.Name = "guna2Separator5";
-            this.guna2Separator5.Size = new System.Drawing.Size(1196, 10);
-            this.guna2Separator5.TabIndex = 1;
-            // 
-            // guna2Separator6
-            // 
-            this.guna2Separator6.Location = new System.Drawing.Point(-2, 115);
-            this.guna2Separator6.Name = "guna2Separator6";
-            this.guna2Separator6.Size = new System.Drawing.Size(1196, 10);
-            this.guna2Separator6.TabIndex = 2;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(52, 15);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(136, 13);
-            this.label32.TabIndex = 3;
-            this.label32.Text = "October 23, 2026 11:57PM";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(52, 56);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(136, 13);
-            this.label33.TabIndex = 4;
-            this.label33.Text = "October 23, 2026 11:57PM";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(52, 99);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(136, 13);
-            this.label34.TabIndex = 5;
-            this.label34.Text = "October 23, 2026 11:57PM";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(52, 141);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(136, 13);
-            this.label35.TabIndex = 6;
-            this.label35.Text = "October 23, 2026 11:57PM";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(320, 141);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(29, 13);
-            this.label36.TabIndex = 7;
-            this.label36.Text = "Staff";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(320, 56);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(29, 13);
-            this.label37.TabIndex = 8;
-            this.label37.Text = "Staff";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(320, 99);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(36, 13);
-            this.label38.TabIndex = 9;
-            this.label38.Text = "Admin";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(320, 15);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(36, 13);
-            this.label39.TabIndex = 10;
-            this.label39.Text = "Admin";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(554, 141);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(102, 13);
-            this.label40.TabIndex = 11;
-            this.label40.Text = "Document Rejected";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(554, 99);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(94, 13);
-            this.label41.TabIndex = 12;
-            this.label41.Text = "Resident Archived";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(563, 56);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(72, 13);
-            this.label42.TabIndex = 13;
-            this.label42.Text = "New Request";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(546, 15);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(105, 13);
-            this.label43.TabIndex = 14;
-            this.label43.Text = "Document Approved";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(834, 141);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(62, 13);
-            this.label44.TabIndex = 15;
-            this.label44.Text = "Ana Santos";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(834, 99);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(62, 13);
-            this.label45.TabIndex = 16;
-            this.label45.Text = "Jose Reyes";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(777, 56);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(186, 13);
-            this.label46.TabIndex = 17;
-            this.label46.Text = "Certificate of Indigency (Maria Santos)";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(779, 15);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(184, 13);
-            this.label47.TabIndex = 18;
-            this.label47.Text = "Barangay Clearance (Juan Dela Cruz)";
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.BackgroundImage = global::BrgyInformationSystem.Properties.Resources._9115241_middle;
-            this.guna2PictureBox3.Image = global::BrgyInformationSystem.Properties.Resources.simple_clock_icon_time_symbol_timer_vector;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.ShadowDecoration.Parent = this.guna2PictureBox3;
-            this.guna2PictureBox3.Size = new System.Drawing.Size(54, 45);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox3.TabIndex = 4;
-            this.guna2PictureBox3.TabStop = false;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.BackgroundImage = global::BrgyInformationSystem.Properties.Resources._9115241_middle;
-            this.guna2PictureBox2.Image = global::BrgyInformationSystem.Properties.Resources.ready_docs;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(23, 3);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
-            this.guna2PictureBox2.Size = new System.Drawing.Size(57, 44);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox2.TabIndex = 3;
-            this.guna2PictureBox2.TabStop = false;
             // 
             // guna2PictureBox6
             // 
@@ -1039,26 +1009,6 @@
             this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
-            // guna2Button1
-            // 
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2Button1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Image = global::BrgyInformationSystem.Properties.Resources.charter_icon_22;
-            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button1.Location = new System.Drawing.Point(-6, 84);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(225, 35);
-            this.guna2Button1.TabIndex = 2;
-            this.guna2Button1.Text = "    Dashboard";
-            this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
-            // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.BackgroundImage = global::BrgyInformationSystem.Properties.Resources._9115241_middle;
@@ -1070,6 +1020,25 @@
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 2;
             this.guna2PictureBox1.TabStop = false;
+            // 
+            // guna2Button11
+            // 
+            this.guna2Button11.CheckedState.Parent = this.guna2Button11;
+            this.guna2Button11.CustomImages.Parent = this.guna2Button11;
+            this.guna2Button11.FillColor = System.Drawing.SystemColors.ActiveCaption;
+            this.guna2Button11.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button11.ForeColor = System.Drawing.Color.White;
+            this.guna2Button11.HoverState.Parent = this.guna2Button11;
+            this.guna2Button11.Image = global::BrgyInformationSystem.Properties.Resources.dashboard;
+            this.guna2Button11.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button11.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2Button11.Location = new System.Drawing.Point(12, 81);
+            this.guna2Button11.Name = "guna2Button11";
+            this.guna2Button11.ShadowDecoration.Parent = this.guna2Button11;
+            this.guna2Button11.Size = new System.Drawing.Size(205, 35);
+            this.guna2Button11.TabIndex = 10;
+            this.guna2Button11.Text = "       Dashboard";
+            this.guna2Button11.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // Form2
             // 
@@ -1113,14 +1082,12 @@
             this.guna2Panel8.PerformLayout();
             this.guna2Panel10.ResumeLayout(false);
             this.guna2Panel10.PerformLayout();
-            this.guna2Panel11.ResumeLayout(false);
-            this.guna2Panel11.PerformLayout();
             this.guna2Panel12.ResumeLayout(false);
             this.guna2Panel12.PerformLayout();
+            this.guna2Panel11.ResumeLayout(false);
+            this.guna2Panel11.PerformLayout();
             this.guna2Panel9.ResumeLayout(false);
             this.guna2Panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
@@ -1136,7 +1103,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
@@ -1168,7 +1134,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private System.Windows.Forms.Label label17;
         private Guna.UI2.WinForms.Guna2Button guna2Button9;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
@@ -1186,7 +1151,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label26;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2Button guna2Button10;
         private System.Windows.Forms.Label label27;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
@@ -1213,5 +1177,6 @@
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label33;
+        private Guna.UI2.WinForms.Guna2Button guna2Button11;
     }
 }
