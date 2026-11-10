@@ -16,5 +16,15 @@ namespace BrgyInformationSystem
         {
             InitializeComponent();
         }
+
+        private void guna2Panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
