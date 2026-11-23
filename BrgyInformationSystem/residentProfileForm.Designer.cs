@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(residentProfileForm));
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.pnlHeader = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.lblStatus = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2ControlBoxClose = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -59,7 +58,6 @@
             this.picResident = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.pnlPersonalInfo = new Guna.UI2.WinForms.Guna2Panel();
             this.personalinformationPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.personalInformation = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.lblVotersValue = new System.Windows.Forms.Label();
@@ -73,8 +71,10 @@
             this.pnlContact = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.contactAndAddressPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.contactAndAddress = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.blRegistrationDateValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblRegistrationDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.btnEdit = new Guna.UI2.WinForms.Guna2Button();
             this.lblHouseholdValue = new System.Windows.Forms.Label();
             this.lblHousehold = new System.Windows.Forms.Label();
             this.lblEmailValue = new System.Windows.Forms.Label();
@@ -83,26 +83,26 @@
             this.lblContact = new System.Windows.Forms.Label();
             this.lblAddressValue = new System.Windows.Forms.Label();
             this.lblAddress = new System.Windows.Forms.Label();
-            this.blRegistrationDateValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblRegistrationDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btnEdit = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pnlHeader.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.pnlProfile.SuspendLayout();
             this.pnlResidentInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picResident)).BeginInit();
             this.pnlPersonalInfo.SuspendLayout();
             this.personalinformationPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.pnlContact.SuspendLayout();
             this.contactAndAddressPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2Panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -125,20 +125,6 @@
             this.pnlHeader.ShadowDecoration.Color = System.Drawing.Color.DimGray;
             this.pnlHeader.Size = new System.Drawing.Size(1084, 100);
             this.pnlHeader.TabIndex = 0;
-            // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
-            this.guna2PictureBox4.BorderRadius = 25;
-            this.guna2PictureBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
-            this.guna2PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox4.Image")));
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(12, 12);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(69, 70);
-            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox4.TabIndex = 5;
-            this.guna2PictureBox4.TabStop = false;
             // 
             // guna2Panel1
             // 
@@ -455,20 +441,6 @@
             this.personalinformationPanel.Size = new System.Drawing.Size(1030, 38);
             this.personalinformationPanel.TabIndex = 14;
             // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.guna2PictureBox1.BorderRadius = 25;
-            this.guna2PictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(52, 30);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 4;
-            this.guna2PictureBox1.TabStop = false;
-            // 
             // personalInformation
             // 
             this.personalInformation.BackColor = System.Drawing.Color.Transparent;
@@ -613,20 +585,6 @@
             this.contactAndAddressPanel.Size = new System.Drawing.Size(1033, 32);
             this.contactAndAddressPanel.TabIndex = 23;
             // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.guna2PictureBox2.BorderRadius = 25;
-            this.guna2PictureBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(4, 3);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(52, 26);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox2.TabIndex = 5;
-            this.guna2PictureBox2.TabStop = false;
-            // 
             // contactAndAddress
             // 
             this.contactAndAddress.BackColor = System.Drawing.Color.Transparent;
@@ -636,6 +594,46 @@
             this.contactAndAddress.Size = new System.Drawing.Size(193, 23);
             this.contactAndAddress.TabIndex = 11;
             this.contactAndAddress.Text = "CONTACT AND ADDRESS";
+            // 
+            // blRegistrationDateValue
+            // 
+            this.blRegistrationDateValue.BackColor = System.Drawing.Color.Transparent;
+            this.blRegistrationDateValue.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.blRegistrationDateValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.blRegistrationDateValue.Location = new System.Drawing.Point(253, 23);
+            this.blRegistrationDateValue.Name = "blRegistrationDateValue";
+            this.blRegistrationDateValue.Size = new System.Drawing.Size(144, 23);
+            this.blRegistrationDateValue.TabIndex = 22;
+            this.blRegistrationDateValue.Text = "Registration Value";
+            // 
+            // lblRegistrationDate
+            // 
+            this.lblRegistrationDate.BackColor = System.Drawing.Color.Transparent;
+            this.lblRegistrationDate.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRegistrationDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.lblRegistrationDate.Location = new System.Drawing.Point(67, 14);
+            this.lblRegistrationDate.Name = "lblRegistrationDate";
+            this.lblRegistrationDate.Size = new System.Drawing.Size(180, 32);
+            this.lblRegistrationDate.TabIndex = 21;
+            this.lblRegistrationDate.Text = "Registration Date:";
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.BorderRadius = 8;
+            this.btnEdit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnEdit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnEdit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEdit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.btnEdit.FocusedColor = System.Drawing.Color.White;
+            this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnEdit.ForeColor = System.Drawing.Color.White;
+            this.btnEdit.Location = new System.Drawing.Point(888, 14);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(140, 40);
+            this.btnEdit.TabIndex = 20;
+            this.btnEdit.Text = "EDIT PROFILE";
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // lblHouseholdValue
             // 
@@ -725,45 +723,33 @@
             this.lblAddress.TabIndex = 12;
             this.lblAddress.Text = "Address:";
             // 
-            // blRegistrationDateValue
+            // guna2PictureBox1
             // 
-            this.blRegistrationDateValue.BackColor = System.Drawing.Color.Transparent;
-            this.blRegistrationDateValue.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blRegistrationDateValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
-            this.blRegistrationDateValue.Location = new System.Drawing.Point(253, 23);
-            this.blRegistrationDateValue.Name = "blRegistrationDateValue";
-            this.blRegistrationDateValue.Size = new System.Drawing.Size(144, 23);
-            this.blRegistrationDateValue.TabIndex = 22;
-            this.blRegistrationDateValue.Text = "Registration Value";
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.guna2PictureBox1.BorderRadius = 25;
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(52, 30);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 4;
+            this.guna2PictureBox1.TabStop = false;
             // 
-            // lblRegistrationDate
+            // guna2PictureBox2
             // 
-            this.lblRegistrationDate.BackColor = System.Drawing.Color.Transparent;
-            this.lblRegistrationDate.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRegistrationDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
-            this.lblRegistrationDate.Location = new System.Drawing.Point(67, 14);
-            this.lblRegistrationDate.Name = "lblRegistrationDate";
-            this.lblRegistrationDate.Size = new System.Drawing.Size(180, 32);
-            this.lblRegistrationDate.TabIndex = 21;
-            this.lblRegistrationDate.Text = "Registration Date:";
-            // 
-            // btnEdit
-            // 
-            this.btnEdit.BorderRadius = 8;
-            this.btnEdit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnEdit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnEdit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnEdit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
-            this.btnEdit.FocusedColor = System.Drawing.Color.White;
-            this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnEdit.ForeColor = System.Drawing.Color.White;
-            this.btnEdit.Location = new System.Drawing.Point(888, 14);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(140, 40);
-            this.btnEdit.TabIndex = 20;
-            this.btnEdit.Text = "EDIT PROFILE";
-            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            this.guna2PictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.guna2PictureBox2.BorderRadius = 25;
+            this.guna2PictureBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(4, 3);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(52, 26);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox2.TabIndex = 5;
+            this.guna2PictureBox2.TabStop = false;
             // 
             // guna2Panel5
             // 
@@ -801,7 +787,20 @@
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(3, 2);
             this.guna2HtmlLabel2.TabIndex = 11;
-            this.guna2HtmlLabel2.Text = null;
+            // 
+            // guna2PictureBox4
+            // 
+            this.guna2PictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.guna2PictureBox4.BorderRadius = 25;
+            this.guna2PictureBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.guna2PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox4.Image")));
+            this.guna2PictureBox4.ImageRotate = 0F;
+            this.guna2PictureBox4.Location = new System.Drawing.Point(12, 12);
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.Size = new System.Drawing.Size(69, 70);
+            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox4.TabIndex = 5;
+            this.guna2PictureBox4.TabStop = false;
             // 
             // residentProfileForm
             // 
@@ -821,7 +820,6 @@
             this.Text = "residentProfileForm";
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             this.pnlProfile.ResumeLayout(false);
@@ -833,15 +831,16 @@
             this.pnlPersonalInfo.PerformLayout();
             this.personalinformationPanel.ResumeLayout(false);
             this.personalinformationPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.pnlContact.ResumeLayout(false);
             this.pnlContact.PerformLayout();
             this.contactAndAddressPanel.ResumeLayout(false);
             this.contactAndAddressPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
