@@ -36,15 +36,15 @@
             this.lblSubtitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.picBarangayHall = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.picResident = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.lblResidentName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblResidentID = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblResidentName = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.picResident = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pnlCreateRequest = new Guna.UI2.WinForms.Guna2Panel();
-            this.picDocument = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.lblRequestTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblRequestDescription = new System.Windows.Forms.Label();
-            this.lblRequestInstruction = new System.Windows.Forms.Label();
             this.btnCreateRequest = new Guna.UI2.WinForms.Guna2Button();
+            this.lblRequestInstruction = new System.Windows.Forms.Label();
+            this.lblRequestDescription = new System.Windows.Forms.Label();
+            this.lblRequestTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.picDocument = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBarangayHall)).BeginInit();
             this.guna2Panel1.SuspendLayout();
@@ -129,6 +129,27 @@
             this.guna2Panel1.Size = new System.Drawing.Size(1468, 145);
             this.guna2Panel1.TabIndex = 6;
             // 
+            // lblResidentID
+            // 
+            this.lblResidentID.BackColor = System.Drawing.Color.Transparent;
+            this.lblResidentID.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResidentID.ForeColor = System.Drawing.Color.Black;
+            this.lblResidentID.Location = new System.Drawing.Point(215, 82);
+            this.lblResidentID.Name = "lblResidentID";
+            this.lblResidentID.Size = new System.Drawing.Size(115, 32);
+            this.lblResidentID.TabIndex = 8;
+            this.lblResidentID.Text = "Resident ID:";
+            // 
+            // lblResidentName
+            // 
+            this.lblResidentName.BackColor = System.Drawing.Color.Transparent;
+            this.lblResidentName.Font = new System.Drawing.Font("Segoe UI", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResidentName.Location = new System.Drawing.Point(215, 25);
+            this.lblResidentName.Name = "lblResidentName";
+            this.lblResidentName.Size = new System.Drawing.Size(248, 47);
+            this.lblResidentName.TabIndex = 7;
+            this.lblResidentName.Text = "Resident Name:";
+            // 
             // picResident
             // 
             this.picResident.BackColor = System.Drawing.Color.Transparent;
@@ -141,27 +162,6 @@
             this.picResident.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picResident.TabIndex = 7;
             this.picResident.TabStop = false;
-            // 
-            // lblResidentName
-            // 
-            this.lblResidentName.BackColor = System.Drawing.Color.Transparent;
-            this.lblResidentName.Font = new System.Drawing.Font("Segoe UI", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResidentName.Location = new System.Drawing.Point(215, 25);
-            this.lblResidentName.Name = "lblResidentName";
-            this.lblResidentName.Size = new System.Drawing.Size(248, 47);
-            this.lblResidentName.TabIndex = 7;
-            this.lblResidentName.Text = "Resident Name:";
-            // 
-            // lblResidentID
-            // 
-            this.lblResidentID.BackColor = System.Drawing.Color.Transparent;
-            this.lblResidentID.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResidentID.ForeColor = System.Drawing.Color.Black;
-            this.lblResidentID.Location = new System.Drawing.Point(215, 82);
-            this.lblResidentID.Name = "lblResidentID";
-            this.lblResidentID.Size = new System.Drawing.Size(115, 32);
-            this.lblResidentID.TabIndex = 8;
-            this.lblResidentID.Text = "Resident ID:";
             // 
             // pnlCreateRequest
             // 
@@ -179,53 +179,6 @@
             this.pnlCreateRequest.Size = new System.Drawing.Size(1468, 487);
             this.pnlCreateRequest.TabIndex = 7;
             // 
-            // picDocument
-            // 
-            this.picDocument.BackColor = System.Drawing.Color.Transparent;
-            this.picDocument.Image = ((System.Drawing.Image)(resources.GetObject("picDocument.Image")));
-            this.picDocument.ImageRotate = 0F;
-            this.picDocument.Location = new System.Drawing.Point(650, 25);
-            this.picDocument.Name = "picDocument";
-            this.picDocument.Size = new System.Drawing.Size(165, 150);
-            this.picDocument.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picDocument.TabIndex = 0;
-            this.picDocument.TabStop = false;
-            // 
-            // lblRequestTitle
-            // 
-            this.lblRequestTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblRequestTitle.Font = new System.Drawing.Font("Segoe UI", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRequestTitle.Location = new System.Drawing.Point(473, 185);
-            this.lblRequestTitle.Name = "lblRequestTitle";
-            this.lblRequestTitle.Size = new System.Drawing.Size(530, 61);
-            this.lblRequestTitle.TabIndex = 1;
-            this.lblRequestTitle.Text = "Create Document Request";
-            this.lblRequestTitle.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblRequestDescription
-            // 
-            this.lblRequestDescription.AutoSize = true;
-            this.lblRequestDescription.BackColor = System.Drawing.Color.Transparent;
-            this.lblRequestDescription.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRequestDescription.ForeColor = System.Drawing.Color.Black;
-            this.lblRequestDescription.Location = new System.Drawing.Point(467, 259);
-            this.lblRequestDescription.Name = "lblRequestDescription";
-            this.lblRequestDescription.Size = new System.Drawing.Size(547, 32);
-            this.lblRequestDescription.TabIndex = 2;
-            this.lblRequestDescription.Text = "Submit a request for official barangay documents.";
-            // 
-            // lblRequestInstruction
-            // 
-            this.lblRequestInstruction.AutoSize = true;
-            this.lblRequestInstruction.BackColor = System.Drawing.Color.Transparent;
-            this.lblRequestInstruction.Font = new System.Drawing.Font("Segoe UI", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRequestInstruction.ForeColor = System.Drawing.Color.Black;
-            this.lblRequestInstruction.Location = new System.Drawing.Point(370, 305);
-            this.lblRequestInstruction.Name = "lblRequestInstruction";
-            this.lblRequestInstruction.Size = new System.Drawing.Size(715, 31);
-            this.lblRequestInstruction.TabIndex = 3;
-            this.lblRequestInstruction.Text = "Select the document you need and provide the required information.";
-            // 
             // btnCreateRequest
             // 
             this.btnCreateRequest.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -241,6 +194,53 @@
             this.btnCreateRequest.Size = new System.Drawing.Size(530, 90);
             this.btnCreateRequest.TabIndex = 4;
             this.btnCreateRequest.Text = "＋  Create Request";
+            // 
+            // lblRequestInstruction
+            // 
+            this.lblRequestInstruction.AutoSize = true;
+            this.lblRequestInstruction.BackColor = System.Drawing.Color.Transparent;
+            this.lblRequestInstruction.Font = new System.Drawing.Font("Segoe UI", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRequestInstruction.ForeColor = System.Drawing.Color.Black;
+            this.lblRequestInstruction.Location = new System.Drawing.Point(370, 305);
+            this.lblRequestInstruction.Name = "lblRequestInstruction";
+            this.lblRequestInstruction.Size = new System.Drawing.Size(715, 31);
+            this.lblRequestInstruction.TabIndex = 3;
+            this.lblRequestInstruction.Text = "Select the document you need and provide the required information.";
+            // 
+            // lblRequestDescription
+            // 
+            this.lblRequestDescription.AutoSize = true;
+            this.lblRequestDescription.BackColor = System.Drawing.Color.Transparent;
+            this.lblRequestDescription.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRequestDescription.ForeColor = System.Drawing.Color.Black;
+            this.lblRequestDescription.Location = new System.Drawing.Point(467, 259);
+            this.lblRequestDescription.Name = "lblRequestDescription";
+            this.lblRequestDescription.Size = new System.Drawing.Size(547, 32);
+            this.lblRequestDescription.TabIndex = 2;
+            this.lblRequestDescription.Text = "Submit a request for official barangay documents.";
+            // 
+            // lblRequestTitle
+            // 
+            this.lblRequestTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblRequestTitle.Font = new System.Drawing.Font("Segoe UI", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRequestTitle.Location = new System.Drawing.Point(473, 185);
+            this.lblRequestTitle.Name = "lblRequestTitle";
+            this.lblRequestTitle.Size = new System.Drawing.Size(530, 61);
+            this.lblRequestTitle.TabIndex = 1;
+            this.lblRequestTitle.Text = "Create Document Request";
+            this.lblRequestTitle.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // picDocument
+            // 
+            this.picDocument.BackColor = System.Drawing.Color.Transparent;
+            this.picDocument.Image = ((System.Drawing.Image)(resources.GetObject("picDocument.Image")));
+            this.picDocument.ImageRotate = 0F;
+            this.picDocument.Location = new System.Drawing.Point(650, 25);
+            this.picDocument.Name = "picDocument";
+            this.picDocument.Size = new System.Drawing.Size(165, 150);
+            this.picDocument.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picDocument.TabIndex = 0;
+            this.picDocument.TabStop = false;
             // 
             // ResidentDashboard
             // 
