@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace BrgyInformationSystem
 {
-    public partial class Form5 : Form
+    public partial class FrmActivityLog : Form
     {
-        public Form5()
+        public FrmActivityLog()
         {
             InitializeComponent();
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

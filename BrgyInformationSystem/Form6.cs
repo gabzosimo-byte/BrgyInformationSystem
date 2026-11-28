@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BrgyInformationSystem
 {
-    public partial class Form6 : Form
+    public partial class FrmReport : Form
     {
-        public Form6()
+        public FrmReport()
         {
             InitializeComponent();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BrgyInformationSystem
 {
-    public partial class Form4 : Form
+    public partial class FrmManageResidents : Form
     {
-        public Form4()
+        public FrmManageResidents()
         {
             InitializeComponent();
         }
@@ -38,6 +38,11 @@ namespace BrgyInformationSystem
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form4_Load(object sender, EventArgs e)
         {
 
         }

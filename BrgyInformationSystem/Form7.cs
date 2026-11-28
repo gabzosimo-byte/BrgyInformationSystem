@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace BrgyInformationSystem
 {
-    public partial class Form7 : Form
+    public partial class FrmUserManagement : Form
     {
-        public Form7()
+        public FrmUserManagement()
         {
             InitializeComponent();
         }
 
         private void label26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmUserManagement_Load(object sender, EventArgs e)
         {
 
         }

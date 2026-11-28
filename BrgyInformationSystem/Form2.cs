@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BrgyInformationSystem
 {
-    public partial class Form2 : Form
+    public partial class FrmAdminDashboard : Form
     {
-        public Form2()
+        public FrmAdminDashboard()
         {
             InitializeComponent();
         }
@@ -53,6 +53,11 @@ namespace BrgyInformationSystem
         }
 
         private void label27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label15_Click(object sender, EventArgs e)
         {
 
         }

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace BrgyInformationSystem
 {
-    public partial class Form8 : Form
+    public partial class FrmStaffDashboard : Form
     {
-        public Form8()
+        public FrmStaffDashboard()
         {
             InitializeComponent();
+        }
+
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
