@@ -54,6 +54,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApproveRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApproveRequestForm.Designer.cs">
+      <DependentUpon>ApproveRequestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarangayClearanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarangayClearanceForm.Designer.cs">
+      <DependentUpon>BarangayClearanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CertificateOfIndigency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CertificateOfIndigency.Designer.cs">
+      <DependentUpon>CertificateOfIndigency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CertificateOfResidency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CertificateOfResidency.Designer.cs">
+      <DependentUpon>CertificateOfResidency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CertificatePendingCaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CertificatePendingCaseForm.Designer.cs">
+      <DependentUpon>CertificatePendingCaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CertificateScholarship.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CertificateScholarship.Designer.cs">
+      <DependentUpon>CertificateScholarship.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateRequestForm.Designer.cs">
+      <DependentUpon>CreateRequestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateResidentAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateResidentAccountForm.Designer.cs">
+      <DependentUpon>CreateResidentAccountForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,8 +156,74 @@
     <Compile Include="Form9.Designer.cs">
       <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
+    <Compile Include="MarkReadyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarkReadyForm.Designer.cs">
+      <DependentUpon>MarkReadyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarkReleasedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarkReleasedForm.Designer.cs">
+      <DependentUpon>MarkReleasedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessRequestForm.Designer.cs">
+      <DependentUpon>ProcessRequestForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RejectRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RejectRequestForm.Designer.cs">
+      <DependentUpon>RejectRequestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResidentDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResidentDashboard.Designer.cs">
+      <DependentUpon>ResidentDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="residentProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="residentProfileForm.Designer.cs">
+      <DependentUpon>residentProfileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchRequestForm.Designer.cs">
+      <DependentUpon>SearchRequestForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ApproveRequestForm.resx">
+      <DependentUpon>ApproveRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarangayClearanceForm.resx">
+      <DependentUpon>BarangayClearanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CertificateOfIndigency.resx">
+      <DependentUpon>CertificateOfIndigency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CertificateOfResidency.resx">
+      <DependentUpon>CertificateOfResidency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CertificatePendingCaseForm.resx">
+      <DependentUpon>CertificatePendingCaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CertificateScholarship.resx">
+      <DependentUpon>CertificateScholarship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateRequestForm.resx">
+      <DependentUpon>CreateRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateResidentAccountForm.resx">
+      <DependentUpon>CreateResidentAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +251,15 @@
     <EmbeddedResource Include="Form9.resx">
       <DependentUpon>Form9.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MarkReadyForm.resx">
+      <DependentUpon>MarkReadyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarkReleasedForm.resx">
+      <DependentUpon>MarkReleasedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessRequestForm.resx">
+      <DependentUpon>ProcessRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -147,6 +270,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RejectRequestForm.resx">
+      <DependentUpon>RejectRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResidentDashboard.resx">
+      <DependentUpon>ResidentDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="residentProfileForm.resx">
+      <DependentUpon>residentProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchRequestForm.resx">
+      <DependentUpon>SearchRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
